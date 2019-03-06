@@ -30,7 +30,7 @@ class Contacts extends Component {
     return (
       <div>
         {contacts.map(contact => (
-          <Contact key={contact.id} name={contact} />
+          <Contact key={contact.id} contact={contact} />
         ))}
       </div>
     );
